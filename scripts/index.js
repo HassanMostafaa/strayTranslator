@@ -34,21 +34,21 @@ function setLang() {
   fromLabel.innerText = "English";
   toLabel.innerText = "Robot";
   input.style.fontFamily = "`Roboto`, sans-serif";
-  output.style.fontFamily = "`myFont`";
+  output.style.fontFamily = "myFont";
   fromLang = "en";
 }
 function revLang() {
   if (fromLang === "en") {
     fromLabel.innerText = "Robot";
     toLabel.innerText = "English";
-    input.style.fontFamily = "`myFont`";
+    input.style.fontFamily = "myFont";
     output.style.fontFamily = "Roboto, sans-serif";
     fromLang = "rb";
   } else {
     fromLabel.innerText = "English";
     toLabel.innerText = "`Robot`";
     input.style.fontFamily = "Roboto, sans-serif";
-    output.style.fontFamily = "`myFont`";
+    output.style.fontFamily = "myFont";
     fromLang = "en";
   }
 }
