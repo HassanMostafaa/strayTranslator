@@ -7,15 +7,11 @@
 // }
 
 @font-face {
-  font-family: "myFont";
+  font-family: myFont;
   font-style: normal;
   font-weight: normal;
-  src: local("myFont"), url("../../assets/lang/Robot.otf") format("truetype");
+  src: url("../../assets/lang/Robot.otf") format("truetype");
 }
-// body {
-//   font-family: "myFont";
-//   font-size: 48px;
-// }
 
 * {
   padding: 0;
